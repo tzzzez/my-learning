@@ -8,7 +8,7 @@ from sklearn.model_selection import GridSearchCV
 import matplotlib.pyplot as plt
 
 #导入原始数据
-data = pd.read_csv(r"D:\my-learning\预报洪水模型测试一\日均流量洪水数据集.csv",engine='python')
+data = pd.read_csv(r"/root/my-learning/model_test1/test.csv",engine='python',encoding='gbk')
 
 """
 对于原始数据缺失的四个特征，先采用均值填补，查看模型得分；再进行中值填补，查看模型得分
@@ -144,7 +144,7 @@ for i in range(100,300,2):
               ,random_state=90
               ,n_jobs=-1
               )
-    once = cross_val_score(rfr, X_test1, y_test1, cv=5).mean()
+    once = cross_val_score(rfr, X_test2, y_test2, cv=5).mean()
     score_l.append(once)
 #plt.plot(range(150,350,5),score)
 #plt.show()

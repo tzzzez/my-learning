@@ -1,0 +1,39 @@
+nohup: ignoring input
+/usr/local/lib/python3.6/dist-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+利用均值填补的数据建造的模型的准确率:
+0.9599211980322642
+利用中位数填补的数据建造的模型的准确率:
+0.9592694646564031
+------------------------------------------------------
+调整均值模型的参数网格搜索结果
+n_estimators调整后的最佳值:
+0.9636977150968093 148
+max_depth调整后的最佳值:
+{'max_depth': 30}
+0.9599667192297301
+max_features调整后的最佳值:
+{'max_features': 11}
+0.9601971737563136
+min_samples_leaf调整后的最佳值:
+{'min_samples_leaf': 2}
+0.9600821054517307
+min_samples_split调整后的最佳值:
+{'min_samples_leaf': 2}
+0.9600821054517307
+-----------------------------------------------
+中位数模型调整结果
+n_estimators调整后的最佳值:
+0.9633413905170656 223
+max_depth调整后的最佳值:
+{'max_depth': 34}
+0.9592881898359293
+max_features调整后的最佳值:
+{'max_features': 11}
+0.9598022024248174
+min_samples_leaf调整后的最佳值:
+{'min_samples_leaf': 2}
+0.9598110202500464
+min_samples_split调整后的最佳值:
+{'min_samples_leaf': 2}
+0.9598110202500464
