@@ -1,0 +1,6 @@
+nohup: ignoring input
+/usr/local/lib/python3.6/dist-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+网格搜索后的最佳结果:
+{'criterion': 'mae', 'max_depth': 8, 'min_samples_leaf': 7, 'min_samples_split': 17}
+0.9442709028401598
