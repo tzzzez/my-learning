@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
 
 #读取数据
-data = pd.read_csv(r"C:\Users\LENOVO\Desktop\model_test2\test.csv",engine='python',encoding='gbk')
+data = pd.read_csv(r"/root/my-learning/model_test2/test.csv",engine='python',encoding='gbk')
 
 #删除空信息
 data.dropna(axis=0,inplace=True)
