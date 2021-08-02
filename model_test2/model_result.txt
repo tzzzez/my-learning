@@ -1,0 +1,18 @@
+nohup: ignoring input
+/usr/local/lib/python3.6/dist-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+未调整参数前模型的准确率:
+0.9504925643993969
+------------------------------------------
+n_estimators调整后的最佳结果:
+{'n_estimators': 71}
+0.9508964340480744
+max_depth调整后的最佳结果:
+{'max_depth': 22}
+0.9516089489605049
+min_samples_leaf调整后的最佳结果:
+{'min_samples_leaf': 4}
+0.9529371943871036
+min_samples_split调整后的最佳结果:
+{'min_samples_split': 11}
+0.9511197505633248
