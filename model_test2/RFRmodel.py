@@ -35,7 +35,7 @@ rfr = RFR(n_estimators=71
 rfr.fit(X_train,Y_train)
 score = cross_val_score(rfr,X,y,cv=10).mean()
 
-print("验证机交叉验证得分:")
+print("验证集交叉验证得分:")
 print(score)
 
 print("--------------------------")

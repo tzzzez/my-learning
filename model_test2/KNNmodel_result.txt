@@ -1,0 +1,7 @@
+nohup: ignoring input
+/usr/local/lib/python3.6/dist-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+0.9463742267562616
+网格搜索后的最佳结果:
+{'n_neighbors': 7, 'p': 1, 'weights': 'distance'}
+0.9499653412950108
