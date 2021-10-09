@@ -1,0 +1,21 @@
+nohup: ignoring input
+/usr/local/lib/python3.6/dist-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+n_estimators调整后的最佳结果:
+{'n_estimators': 98}
+0.7744911194152271
+max_depth调整后的最佳结果:
+{'max_depth': 21}
+0.7723999085873258
+min_samples_leaf调整后的最佳结果:
+{'min_samples_leaf': 7}
+0.7795540302184815
+min_samples_split调整后的最佳结果:
+{'min_samples_split': 10}
+0.7765411599414891
+-----------------------------------
+归一化后的最佳调参:
+Traceback (most recent call last):
+  File "RFRmodel_test2.py", line 70, in <module>
+    scaler = MinMaxScaler(feature_range=[0,1])
+NameError: name 'MinMaxScaler' is not defined
